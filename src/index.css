@@ -1,0 +1,41 @@
+body {
+  background-image: url(assets/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  /* backdrop-filter: blur(3px); */
+  /* OPTIONAL */
+  display: flex;
+
+  justify-content: center;
+
+  min-height: 100vh;
+  align-items: center;
+}
+.clock-container {
+  backdrop-filter: blur(8px);
+  width: 100vw;
+  padding: 10px 0;
+}
+.clock {
+  color: #cf5513;
+  font-size: 6rem;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 3px 3px 8px hsla(0, 0%, 0%, 0.75);
+  /* text-shadow: 3px 3px 8px hsla(34, 5%, 26%, 0.75); */
+  font-family: "Orbitron", monospace;
+  
+  /* Mimic the body's background */
+  background-image: url('assets/bg.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-clip: text;
+  background-clip: text;
+  /* color: transparent; */
+  color:#712617;
+  text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.3);
+}
