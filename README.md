@@ -1,9 +1,6 @@
 ⏰ Digital Clock (React)  
 A simple and elegant digital clock built with React. Displays the current time in 12-hour format with AM/PM, the current date (DD/MM/YYYY), and the day of the week — all updating in real time using React hooks.
 
-🕹️ Live Demo  
-View the clock here 👉 [Digital Clock](#)  
-
 🚀 Features  
 - Real-time updates every second  
 - Displays time, date, and day of the week  
